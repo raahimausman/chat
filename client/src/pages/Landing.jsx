@@ -48,7 +48,7 @@ console.log('Environment Variable:', import.meta.env.VITE_API_URL);
             alignItems: 'center',
           }}
         >
-          <Link to="/about-us" style={{ color: '#ffffff', fontFamily: 'Readex Pro', fontWeight: '200', textDecoration: 'none' }}>About Us</Link>
+          <Link to="/chat" style={{ color: '#ffffff', fontFamily: 'Readex Pro', fontWeight: '200', textDecoration: 'none' }}>About Us</Link>
           <Link to="/services" style={{ color: '#ffffff', fontFamily: 'Readex Pro', fontWeight: '200', textDecoration: 'none' }}>Services</Link>
           <Link 
             to="/login" 
