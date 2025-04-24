@@ -14,9 +14,8 @@ const { socketConnection } = require ("./sockets/chat");
 const app = express();
 
 const allowedOrigins = [
-  process.env.CLIENT_ORIGIN,                 // e.g. http://localhost:5173
-  process.env.VERCEL_ORIGIN,                 // we'll set this in .env
-  process.env.RAILWAY_ORIGIN,                // we'll set this in .env
+  process.env.CLIENT_ORIGIN,   // e.g. http://localhost:5173
+  process.env.VERCEL_ORIGIN,   // e.g. https://chat-26cp.vercel.app
 ];
 
 // --- EXPRESS SETUP ---
