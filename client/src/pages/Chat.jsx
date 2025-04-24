@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { io } from 'socket.io-client';
 
 /* ---------------- one-time socket ----------------- */
-const ENDPOINT           = import.meta.env.VITE_API_BASE_URL || "https://chat-production-d479.up.railway.app";
+const ENDPOINT           = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000";
 window.__tt_socket__     = window.__tt_socket__ || io(ENDPOINT, { autoConnect: false });
 const socket             = window.__tt_socket__;
 
